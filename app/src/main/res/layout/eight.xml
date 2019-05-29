@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/project"
+    tools:context=".eight">
+
+    <ImageView
+        android:id="@+id/mc"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/cycle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="0dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/puppy"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/mc"
+        android:src="@drawable/puppy" />
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="230dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="234dp"
+        android:background="@drawable/about">
+
+        <TextView
+            android:id="@+id/project"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:text="PROJECT"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="165dp"
+        android:background="@drawable/st">
+
+        <TextView
+            android:id="@+id/pn1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="0dp"
+            android:gravity="center"
+            android:text="GUESS\n THE\nSPORTSPERSON"
+            android:textColor="#06000b"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/next5"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="-11dp"
+        android:background="@drawable/st">
+        <TextView
+            android:id="@+id/o2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="CONNECT\n A 4X4 2 player\n grid game"
+            android:textColor="#06000b"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/pn2"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="42dp"
+            android:src="@drawable/connect" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/p4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_toEndOf="@+id/mc"
+        android:background="@drawable/st">
+
+        <TextView
+            android:id="@+id/o"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="My\n Interactive"
+            android:textColor="#06000b"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/pn4"
+            android:layout_marginTop="3dp"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/fi" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/next5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/c_button"
+        android:textColor="#ffffff"
+        android:text="Move" />
+
+</RelativeLayout>
+

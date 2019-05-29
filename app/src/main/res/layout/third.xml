@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/schooll"
+    tools:context=".third">
+
+    <ImageView
+        android:id="@+id/cycle"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/cycle" />
+
+    <RelativeLayout
+        android:id="@+id/about"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="234dp"
+        android:background="@drawable/about">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="EDUCATION"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/my"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/about"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="11dp"
+        android:src="@drawable/my" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toStartOf="@+id/next"
+        android:background="@drawable/l"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="ASSISI CONVENT SCHOOL\nNoida\nAffiliated to CBSE"
+        android:textColor="#310535"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/result1"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="259dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/j">
+
+        <TextView
+            android:id="@+id/twelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Senior Secondary Education\n[2015-2016]\nPercentage:92.6%"
+            android:textColor="#f41d010f"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/result2"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="224dp"
+        android:background="@drawable/j">
+
+        <TextView
+            android:id="@+id/nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text=" Higher Secondary Education \n[2013-2014]\nCGPA:9.8"
+            android:textColor="#f41d010f"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/move"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/c_button"
+        android:textColor="#ffffff"
+        android:text="Move" />
+</RelativeLayout>
+
